@@ -1,0 +1,73 @@
+/* Fondo del body */
+body {
+    background-image: url('../img/dark-metal-texture.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+.fondo {
+    background-color: rgba(255, 0, 0, 0.9); 
+    border-radius: 15px;
+    padding: 20px;
+    border: 3px solid black; 
+}
+
+
+.imagen-circulo {
+    border-radius: 50%; 
+    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+    background-position: center; /* Centra la imagen */
+    border: 3px solid white; /* Contorno blanco opcional */
+}
+
+
+.form-control {
+    border: 2px solid #007bff; 
+    border-radius: 10px; 
+}
+
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.btn-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    text-decoration: underline;
+    color: #0056b3; 
+}
+/* Estilo para los botones */
+.btn-rojo {
+    background-color: red; 
+    color: white; 
+    border: 2px solid black; 
+    border-radius: 10px; 
+    font-size: 18px;
+    padding: 10px 20px; 
+    width: 100%; 
+}
+
+.btn-rojo:hover {
+    background-color: darkred;
+    color: white; 
+}
+
+
+.btn-link {
+    color: red;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    text-decoration: underline;
+    color: darkred;
+}

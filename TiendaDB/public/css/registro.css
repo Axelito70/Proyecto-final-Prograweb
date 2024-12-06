@@ -1,0 +1,56 @@
+/* Fondo del body */
+body {
+    background-image: url('../img/rojo.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+.fondo {
+    background-color: rgba(255, 0, 0, 0.9); 
+    border-radius: 15px;
+    padding: 20px;
+    border: 3px solid black; 
+}
+
+
+.imagen-circulo {
+    border-radius: 50%; 
+    background-size: cover; 
+    background-position: center; 
+    border: 3px solid white; 
+}
+
+
+.form-control {
+    border: 2px solid #007bff; 
+    border-radius: 10px; 
+}
+
+
+.btn-rojo {
+    background-color: red; 
+    color: white; 
+    border: 2px solid black; 
+    border-radius: 10px; 
+    font-size: 18px; 
+    padding: 10px 20px; 
+    width: 100%; 
+}
+
+.btn-rojo:hover {
+    background-color: darkred; 
+    color: white; 
+}
+
+
+.btn-link {
+    color: red;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    text-decoration: underline;
+    color: darkred;
+}
